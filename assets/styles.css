@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+}
+
+.palette {
+    float: left;
+    width: 10vmin;
+}
+
+.canvas {
+    float: left;
+    width: 90vmin;
+    height: 90vmin;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.pixel {
+    float: left;
+    height: 5%;
+    width: 5%;
+}
+
+.color-choice {
+    font-size: 100px;
+}
+
+#blue {
+    color: blue;
+}
+#red {
+    color: red;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
