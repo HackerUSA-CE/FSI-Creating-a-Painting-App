@@ -25,6 +25,7 @@ body {
 
 .color-choice {
     font-size: 100px;
+    cursor: pointer;
 }
 
 #blue {
