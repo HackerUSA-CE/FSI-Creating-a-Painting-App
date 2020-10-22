@@ -1,7 +1,7 @@
 let selectedColor = 'blue'
-const canvas = document.querySelector('.canvas')
+const painting = document.querySelector('.painting')
 
-canvas.addEventListener('click', function(e){
+painting.addEventListener('click', function(e){
     e.target.style.backgroundColor = selectedColor;
 })
 
